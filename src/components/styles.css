@@ -1,0 +1,64 @@
+
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero{
+    background-image: url('../assets/about.jpg');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #f8f8f8; */
+    margin-top: 6rem;
+  
+    /* Center slide text vertically */
+    display: flex;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+
+  .modal{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+/* LoginForm.css */
+.active label {
+    top: -0.2rem;
+    font-size: 0.6rem;
+    color: #333;
+  }
+  
+  
+.hero{
+  background-image: url('../src/assets/hero2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
