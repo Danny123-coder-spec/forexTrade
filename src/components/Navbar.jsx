@@ -47,7 +47,7 @@ const Navbar = () => {
         <div className='lg:flex lg:flex-row hidden list-none items-center '>
           {navLinks.map(link => {
             return (
-              <NavLink className='font-Poppins hover:text-[#8092a8]  pl-6'>
+              <NavLink className='font-Poppins hover:text-black text-white  pl-6'>
                 <li>{link}</li>
               </NavLink>
             )
