@@ -83,7 +83,7 @@ const Services = () => {
                                         <span>{service.mentor}</span>
                                     </div>
 
-                                    <button onClick={toggle} className='w-full  bg-[#8092a8] hover:#8092a8 hover:opacity-80 text-white px-4 rounded-sm font-[600] text-sm  py-[0.3rem]'>BOOK NOW</button>
+                                    <button onClick={toggle} className='w-full  bg-[#8092a8] hover:#8092a8 hover:opacity-80 text-white px-4 rounded-md font-[600] text-sm  py-[0.7rem]'>BOOK NOW</button>
 
                                     <Modal isOpen={modal} toggle={toggle} className='modal'>
 
